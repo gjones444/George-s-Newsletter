@@ -1,35 +1,46 @@
 
 #div-container {
     width: 100%;
-    border: 1px green;
+    border: 1px solid grey;
 }
 
 #header, #footer {
     padding: 1em;
     color: white;
-    background-color: teal;
+    background-color: crimson;
     text-align: center;
 }
 
 #nav {
     float: right;
     max-width: 160px;
-    margin: 0;
-    padding: 1em;
+    margin: 0px;
+    padding: 2em;
 }
 
 #nav-ul {
     list-style-type: none;
-    padding: 0;
+    padding: 45px;
 }
 
 #nav-ul-a {
     text-decoration: none;
 }
 
+#nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: tomato;
+	text-align: center;
+}
+
 #article {
     margin-right: 170px;
     border-right: 1px solid gray;
     padding: 1em;
-    overflow-y: auto;
+}
+
+#ul-style {
 }
