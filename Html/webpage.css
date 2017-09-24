@@ -1,0 +1,108 @@
+
+#div-container {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+#header, #footer {
+    padding: 1em;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    font-family: monospace;
+}
+
+#nav {
+    float: right;
+    max-width: 250px;
+    margin: 0;
+    padding: 4em;
+    text-decoration: none;
+}
+
+#nav-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#nav-ul-a {
+    text-decoration: none;
+}
+
+#nav-bar {
+  width: 100%;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  box-shadow: 10px 10px 15px lightgrey;
+}
+
+#article {
+  margin-right: 320px;
+  border-right: 1px solid gray;
+  padding: 1em;
+  font-family: sans-serif;;
+}
+
+#h1 {
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  color: #313131;
+  font-family: cursive;
+  font-weight: normal;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+#img {
+  text-align: center;
+}
+
+.ul a {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+
+.ul a:hover {
+  background-color: #111;
+}
+
+#borderbottom{
+    border-bottom: dotted  lightgrey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+input[type=text] {
+    width: 80px;
+    display: inline-block;
+    box-sizing: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 0;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: left;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
